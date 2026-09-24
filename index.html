@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiyarlin K | Data Analyst &amp; AI / Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Fiyarlin K, a final-year B.Tech AI and Data Science student and aspiring data analyst working with Python, SQL and Power BI.">
+  <meta name="author" content="Fiyarlin K">
+  <meta name="theme-color" content="#1A1033">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fiyarlin K | Data Analyst &amp; AI / Data Science Portfolio">
+  <meta property="og:description" content="Dashboards, data analysis and AI projects by Fiyarlin K, a final-year B.Tech AI and Data Science student.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236B2FDB'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='700' text-anchor='middle' fill='white'%3EF%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400&amp;family=Instrument+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="nav__logo" href="#home" aria-label="Fiyarlin K, back to top">Fiyarlin K</a>
+
+      <button class="nav__toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav__bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav__links" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#assistant">AI Assistant</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <svg class="hero__chart" viewBox="0 0 800 440" aria-hidden="true" focusable="false">
+        <g class="hc-grid">
+          <line x1="0" y1="110" x2="800" y2="110"/>
+          <line x1="0" y1="220" x2="800" y2="220"/>
+          <line x1="0" y1="330" x2="800" y2="330"/>
+          <line x1="0" y1="439" x2="800" y2="439"/>
+        </g>
+        <g class="hc-bars">
+          <rect style="--i:0" x="20"  y="350" width="38" height="90"/>
+          <rect style="--i:1" x="98"  y="310" width="38" height="130"/>
+          <rect style="--i:2" x="176" y="330" width="38" height="110"/>
+          <rect style="--i:3" x="254" y="270" width="38" height="170"/>
+          <rect style="--i:4" x="332" y="290" width="38" height="150"/>
+          <rect style="--i:5" x="410" y="220" width="38" height="220"/>
+          <rect style="--i:6" x="488" y="240" width="38" height="200"/>
+          <rect style="--i:7" x="566" y="170" width="38" height="270"/>
+          <rect style="--i:8" x="644" y="190" width="38" height="250"/>
+          <rect style="--i:9" x="722" y="110" width="38" height="330"/>
+        </g>
+        <path class="hc-line" pathLength="1"
+              d="M39 310 L117 270 L195 290 L273 230 L351 250 L429 180 L507 200 L585 130 L663 150 L741 70"/>
+        <g class="hc-dots">
+          <circle style="--i:0" cx="39"  cy="310" r="6"/>
+          <circle style="--i:1" cx="117" cy="270" r="6"/>
+          <circle style="--i:2" cx="195" cy="290" r="6"/>
+          <circle style="--i:3" cx="273" cy="230" r="6"/>
+          <circle style="--i:4" cx="351" cy="250" r="6"/>
+          <circle style="--i:5" cx="429" cy="180" r="6"/>
+          <circle style="--i:6" cx="507" cy="200" r="6"/>
+          <circle style="--i:7" cx="585" cy="130" r="6"/>
+          <circle style="--i:8" cx="663" cy="150" r="6"/>
+          <circle style="--i:9" cx="741" cy="70"  r="6"/>
+        </g>
+      </svg>
+
+      <div class="container hero__inner">
+        <h1 class="hero__name" id="hero-title"><span class="mask"><span>Fiyarlin K</span></span></h1>
+        <p class="hero__tagline hero__fade" style="--delay:.55s">Aspiring data analyst and AI &amp; data science enthusiast, turning data into decisions.</p>
+        <p class="hero__intro hero__fade" style="--delay:.7s">
+          I&rsquo;m a final-year B.Tech student in Artificial Intelligence and Data Science who turns raw, messy data into dashboards and insights people can act on. I work in Python, SQL and Power BI, and I&rsquo;ve built a regional sales dashboard, a movie-ratings analysis and a real-time rockfall early-warning system. I&rsquo;m looking for a role in data analytics or AI where I can keep learning by shipping real work.
+        </p>
+        <div class="hero__actions hero__fade" style="--delay:.85s">
+          <a class="btn btn--primary" href="#projects">View my projects</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about__title-col">
+          <h2 class="section__title" id="about-title">About</h2>
+        </div>
+
+        <div class="about__body">
+          <div class="prose reveal">
+            <p class="prose__lead">I&rsquo;m a final-year B.Tech student in Artificial Intelligence and Data Science at Arunachala College of Engineering for Women, with a CGPA of 8.4 through the sixth semester.</p>
+            <p>Python, SQL and Power BI are the tools I reach for most, and I learn best by using them on real work rather than only studying concepts. So far that has meant a region-based sales dashboard during my internship at Alric Infotech, exploratory analysis of user ratings at Hex Softwares, and a real-time rockfall early-warning system built for Smart India Hackathon 2025.</p>
+            <p>I&rsquo;m drawn to questions that need digging beyond the surface, and I care as much about explaining findings clearly as about getting the numbers right. My goal is to start a career in AI and data science, contribute to data-driven projects, and keep growing on a team.</p>
+          </div>
+
+          <div class="about__block reveal">
+            <h3 class="about__h3">Experience</h3>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <h4>Data Analyst Intern</h4>
+                <p class="timeline__meta"><span>Alric Infotech Pvt. Ltd.</span><span>Jun 2025 &ndash; Jul 2025</span></p>
+                <ul class="bullets">
+                  <li>Built and maintained a region-based sales dashboard in Power BI and Excel, using pivot tables and formulas to track KPIs across products, regions and sales teams.</li>
+                  <li>Collected, cleaned and organized sales data from multiple sources, then analyzed trends to produce business insights and stakeholder reports.</li>
+                </ul>
+              </li>
+              <li class="timeline__item">
+                <h4>Data Science Intern</h4>
+                <p class="timeline__meta"><span>Hex Softwares (Virtual)</span><span>Aug 2025 &ndash; Sep 2025</span></p>
+                <ul class="bullets">
+                  <li>Performed exploratory data analysis and preprocessing in Python (Pandas, NumPy) to find trends and patterns in user rating data.</li>
+                  <li>Applied statistical analysis and presented findings through clear visualizations, across tasks that included Titanic survival patterns, what drives movie ratings, and global pandemic case trends.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <div class="about__block about__split reveal">
+            <div>
+              <h3 class="about__h3">Education</h3>
+              <p class="edu__degree">B.Tech in Artificial Intelligence and Data Science</p>
+              <p class="edu__meta">Arunachala College of Engineering for Women</p>
+              <p class="edu__meta">2023 &ndash; 2027 &nbsp;|&nbsp; CGPA 8.4 (through 6th semester)</p>
+            </div>
+            <div>
+              <h3 class="about__h3">Recognition</h3>
+              <ul class="bullets">
+                <li><strong>Smart India Hackathon 2025</strong> with Team BREAKER6: shortlisted in the internal hackathon for the AI-Based Rockfall Prediction and Alert System.</li>
+                <li><strong>SheHacks 2026</strong> with Team WayFinder: ranked among the top 25 teams for the Autonomous AI Travel Planning System.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--mist" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section__title" id="skills-title">Skills</h2>
+
+        <div class="skill-groups" data-reveal-group>
+          <div class="skill-group reveal">
+            <h3>Programming &amp; Analytics</h3>
+            <ul class="tags">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Data Visualization</li>
+              <li>Exploratory Data Analysis</li>
+              <li>Statistical Analysis</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>BI &amp; Reporting Tools</h3>
+            <ul class="tags">
+              <li>Power BI</li>
+              <li>Microsoft Excel</li>
+              <li>Tableau</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Libraries</h3>
+            <ul class="tags">
+              <li>NumPy</li>
+              <li>Pandas</li>
+              <li>Matplotlib</li>
+              <li>Scikit-learn</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Databases</h3>
+            <ul class="tags">
+              <li>MySQL</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Automation &amp; AI</h3>
+            <ul class="tags">
+              <li>n8n Workflows</li>
+              <li>OpenAI Integration</li>
+              <li>Prompt Design</li>
+              <li>OpenCV</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tools</h3>
+            <ul class="tags">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Jupyter Notebook</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="certs reveal">
+          <h3 class="about__h3">Certifications</h3>
+          <ul class="certs__list">
+            <li><span class="certs__name">Introduction to MS Excel</span><span class="certs__issuer">Simplilearn</span></li>
+            <li><span class="certs__name">Data Science with Python</span><span class="certs__issuer">IT Desk</span></li>
+            <li><span class="certs__name">Introduction to Business Intelligence</span><span class="certs__issuer">Infosys Springboard</span></li>
+            <li><span class="certs__name">Learning Microsoft Power BI</span><span class="certs__issuer">Infosys Springboard</span></li>
+            <li><span class="certs__name">Data Visualisation: Empowering Business with Effective Insights</span><span class="certs__issuer">Forage</span></li>
+            <li><span class="certs__name">Data Analytics Job Simulation</span><span class="certs__issuer">Deloitte</span></li>
+            <li><span class="certs__name">Finance Analytics for Decision Making using Excel</span><span class="certs__issuer">Swayam</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section__title" id="projects-title">Projects</h2>
+
+        <div class="projects" data-reveal-group>
+
+          <article class="card reveal">
+            <h3 class="card__title">AI-Based Rockfall Prediction and Alert System</h3>
+            <p class="card__text">A real-time detection and early-warning system that combines live data streams with machine-learning prediction. Built with Team BREAKER6 for Smart India Hackathon 2025, where it was shortlisted in the internal hackathon.</p>
+            <ul class="tags tags--small" aria-label="Tech stack">
+              <li>Python</li>
+              <li>OpenCV</li>
+              <li>Scikit-learn</li>
+            </ul>
+            <a class="card__link" href="https://github.com/Fiyarlin/Rockfall_Prediction_AI" target="_blank" rel="noopener noreferrer">View on GitHub<span class="sr-only"> (opens in a new tab)</span></a>
+          </article>
+
+          <article class="card reveal">
+            <h3 class="card__title">Region-Based Sales Dashboard</h3>
+            <p class="card__text">An interactive Power BI and Excel dashboard analyzing &#8377;1.29 Cr in sales across 4,705 units. Drill-down filters for product, salesperson and region make KPI tracking quick.</p>
+            <ul class="tags tags--small" aria-label="Tech stack">
+              <li>Power BI</li>
+              <li>Excel</li>
+              <li>Pivot Tables</li>
+            </ul>
+            <a class="card__link" href="https://github.com/Fiyarlin/Region-based-Sales-Analysis" target="_blank" rel="noopener noreferrer">View on GitHub<span class="sr-only"> (opens in a new tab)</span></a>
+          </article>
+
+          <article class="card reveal">
+            <h3 class="card__title">Movie Rating Analysis</h3>
+            <p class="card__text">Exploratory data analysis on the MovieLens 100K dataset (100,000 ratings from 943 users across 1,682 movies) to analyze user behavior and engagement trends.</p>
+            <ul class="tags tags--small" aria-label="Tech stack">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>EDA</li>
+            </ul>
+            <a class="card__link" href="https://github.com/Fiyarlin/movie-rating-analysis" target="_blank" rel="noopener noreferrer">View on GitHub<span class="sr-only"> (opens in a new tab)</span></a>
+          </article>
+
+          <article class="card reveal">
+            <h3 class="card__title">Autonomous AI Travel Planning System</h3>
+            <p class="card__text">An AI trip planner that builds itineraries from live data through automated decisions. I set up the n8n workflows, connected OpenAI and weather-map services, wrote prompts that keep answers consistent, and tied it together with web code. Ranked among the top 25 teams at SheHacks 2026 as Team WayFinder.</p>
+            <ul class="tags tags--small" aria-label="Tech stack">
+              <li>n8n</li>
+              <li>OpenAI</li>
+              <li>Prompt Design</li>
+              <li>Web Front End</li>
+            </ul>
+            <!-- No repository link was provided for this project. Replace "#" below with the GitHub or demo URL, then remove the "is-pending" class and change the label. -->
+            <a class="card__link is-pending" href="#" aria-disabled="true">Link coming soon</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AI ASSISTANT ============ -->
+    <section class="section section--accent" id="assistant" aria-labelledby="assistant-title">
+      <div class="container">
+        <div class="assistant__head">
+          <h2 class="section__title" id="assistant-title">Talk to my AI Assistant</h2>
+          <p class="assistant__lead">Curious about my projects, skills or internships? Ask my AI assistant below.</p>
+        </div>
+
+        <div class="assistant__frame reveal">
+          <!--
+            TODO: Replace the src below with your deployed Streamlit app URL.
+            Keep "?embed=true" at the end so Streamlit hides its own header and footer.
+            Until it is replaced, script.js swaps this iframe for a friendly "coming soon" message
+            so visitors never see a broken embed.
+          -->
+          <iframe id="assistant-iframe"
+                  title="Fiyarlin's AI assistant"
+                  src="https://YOUR-APP-NAME.streamlit.app/?embed=true"
+                  width="100%" height="600" style="border:0;"
+                  loading="lazy"
+                  allow="clipboard-write"></iframe>
+
+          <div class="assistant__fallback" id="assistant-fallback" hidden>
+            <p class="assistant__fallback-title">The assistant is being set up.</p>
+            <p>It isn&rsquo;t live yet. In the meantime you can reach me directly at <a href="mailto:fiyarlin6@gmail.com">fiyarlin6@gmail.com</a>.</p>
+          </div>
+        </div>
+
+        <p class="assistant__open"><a id="assistant-open" href="#" target="_blank" rel="noopener noreferrer" hidden>Open the assistant in a new tab<span class="sr-only"> (opens in a new tab)</span></a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ CONTACT / FOOTER ============ -->
+  <footer class="site-footer" id="contact" aria-labelledby="contact-title">
+    <div class="container contact">
+      <h2 class="section__title" id="contact-title">Contact</h2>
+      <p class="contact__lead">I&rsquo;m open to data analyst and AI &amp; data science roles. Email is the quickest way to reach me.</p>
+
+      <a class="contact__email" href="mailto:fiyarlin6@gmail.com">fiyarlin6@gmail.com</a>
+
+      <ul class="contact__links">
+        <li><a class="pill-link" href="https://www.linkedin.com/in/fiyarlin-k-771ba7309/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+        <li><a class="pill-link" href="https://github.com/Fiyarlin" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+      </ul>
+
+      <p class="contact__place">Karungal, Tamil Nadu, India</p>
+    </div>
+
+    <div class="container footer__bar">
+      <p>&copy; <span id="year">2026</span> Fiyarlin K</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
